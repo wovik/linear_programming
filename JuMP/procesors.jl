@@ -1,3 +1,5 @@
+# Wojciech Kowalik
+
 using JuMP
 using GLPK
 

@@ -1,3 +1,5 @@
+# Wojciech Kowalik
+
 using JuMP
 using GLPK
 
@@ -45,7 +47,7 @@ memo = [9 9 8 9 7;
         4 4 4 3 1;
         7 7 9 6 8;
         2 1 2 3 1]
-functions = [1, 2, 3, 4, 5, 6]
+functions = [1, 2, 4, 6]
 maxMemory = 17
 
 (status, time, choice) = programs(time, memo, functions, maxMemory)
