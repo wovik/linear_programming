@@ -89,7 +89,6 @@ time = [1 2 1;
         6 7 4;
         3 7 3]
 
-# printGrannt(9, [2 4 5], [1 3 4])
 
 (status, endTime, startTime) = procesors(time)
 
